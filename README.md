@@ -13,8 +13,8 @@ After doing next:
 4. Tap space button to play next phrase *or* tap key `a` for replay phrase without subtitles *or* tap `A` for replay phrase with subtitles
 
 ## input.conf
-Script for copy current view subtitle in clipboard when playing video in MPV.
-For install need copy this file to `/home/denisryazantsev/.config/mpv/`.
+Configuration file for MVP. 
+For copy current view subtitle in clipboard when playing video. For install need copy this file to `/home/denisryazantsev/.config/mpv/`.
 
 ## extract-subs.sh
 Script for extracting subtitles from video file. 
