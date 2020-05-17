@@ -16,6 +16,9 @@ After doing next:
 Configuration file for MVP. 
 Used to copy current view subtitle in clipboard when playing video. For install need copy this file to `/home/.config/mpv/`.
 
+### requirments libs
+`sudo apt-get install xclip`
+
 ## extract-subs.sh
 Script for extracting subtitles from video file. 
 For used it just input next lines to terminal:
@@ -23,4 +26,7 @@ For used it just input next lines to terminal:
 sudo chmod 777 extract-subs.sh
 ./extract-subs.sh <your-name-video-file> <index subtitles from 0 to N>
 ```
+
+### requirments libs
+`sudo apt-get install ffmpeg`
 
