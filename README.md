@@ -3,7 +3,7 @@ Utils for learning foreign language with Linux.
 
 ## main.lua
 Script for MVP [https://help.ubuntu.ru/wiki/mpv_player].
-For training the skill of "listening" to a foreign language. With the help of the script you can watch the video dividing it into phrases, play back phrases if you did not understand listened with subtitles `on` or `off`. Phrases are taken from subtitles, which should be a file in the same folder as the video file.
+Used to training the skill of "listening" to a foreign language. With the help of the script you can watch the video dividing it into phrases, play back phrases if you did not understand listened with subtitles `on` or `off`. Phrases are taken from subtitles, which should be a file in the same folder as the video file.
 
 For install need copy this file to `/home/.config/mpv/scripts/`.
 After doing next:
@@ -14,11 +14,11 @@ After doing next:
 
 ## input.conf
 Configuration file for MVP. 
-For copy current view subtitle in clipboard when playing video. For install need copy this file to `/home/.config/mpv/`.
+Used to copy current view subtitle in clipboard when playing video. For install need copy this file to `/home/.config/mpv/`.
 
 ## extract-subs.sh
 Script for extracting subtitles from video file. 
-For use input next lines to terminal:
+For used it just input next lines to terminal:
 ```
 sudo chmod 777 extract-subs.sh
 ./extract-subs.sh <your-name-video-file> <index subtitles from 0 to N>
