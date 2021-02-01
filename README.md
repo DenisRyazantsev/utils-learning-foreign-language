@@ -1,9 +1,9 @@
-# utils-learning-foreign-language
-Utils for learning foreign language with Linux. 
+# Utils for learning foreign language
+Utils for learning foreign language on Linux. 
 
 ## main.lua
 Script for MVP [https://help.ubuntu.ru/wiki/mpv_player].
-Used to training the skill of "listening" to a foreign language. With the help of the script you can watch the video dividing it into phrases, play back phrases if you did not understand listened with subtitles `on` or `off`. Phrases are taken from subtitles, which should be a file in the same folder as the video file.
+Used to training the skill of "listening" to a foreign language. With the help of the script you can watch the video that will be divided into phrases, play back phrases if you did not understanding listened with subtitles `on` or `off`. Phrases are taken from subtitles, which should be a file in the same folder as the video file.
 
 For install need copy this file to `/home/.config/mpv/scripts/`.
 After doing next:
